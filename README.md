@@ -15,15 +15,13 @@ A mixin for stylus to style placeholder content on input html elements
 
 ### Examble usage:
 ps: DONT FORGET TO ADD THE "+" SIGN BEFORE THE MIXIN NAME!!!
-<pre><code>
-input[type="submit"]
+<pre><code>input[type="submit"]
 	+placeholder()
 		color #fff
 </code></pre>
 
 ### Outputs as:
-<pre><code>
-.contact input[type='submit']::-webkit-input-placeholder {
+<pre><code>.contact input[type='submit']::-webkit-input-placeholder {
 	color: #fff;
 }
 
