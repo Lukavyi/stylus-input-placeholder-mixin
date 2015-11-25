@@ -15,9 +15,11 @@ A mixin for stylus to style placeholder content on input html elements
 
 ### Examble usage:
 ps: DONT FORGET TO ADD THE "+" SIGN BEFORE THE MIXIN NAME!!!
-<pre><code>input
-	+placeholder()
-		color #fff
+<pre><code>
+.contact
+	input
+		+placeholder()
+			color #fff
 </code></pre>
 
 ### Outputs as:
