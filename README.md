@@ -21,6 +21,7 @@ ps: DONT FORGET TO ADD THE "+" SIGN BEFORE THE MIXIN NAME!!!
 		+placeholder()
 			color #fff
 </code></pre>
+The reason behind + sign: http://stylus-lang.com/docs/mixins.html#block-mixins
 
 ### Outputs as:
 <pre><code>.contact input::-webkit-input-placeholder {
